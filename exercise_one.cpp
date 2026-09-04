@@ -33,7 +33,7 @@ bool part_one() {
 bool part_two() {
     print("Part 2: Make a program which loads and displays a grayscale image using OpenCV.");
     cv::Mat img = cv::imread("lion.jpg");
-    if (img.empty()) { // check whether or not the image loaded
+    if (img.empty()) { // check whether or not the image is loaded
       print("Error: Image 'lion.jpg' is empty");
       return false;
     }
