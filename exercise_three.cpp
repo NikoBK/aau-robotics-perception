@@ -161,10 +161,10 @@ bool part_one()
 
 int main()
 {
-  print("Starting exercise 2");
+  print("Starting exercise 3");
   if (!part_one()) { return -1; }
   if (!part_two()) { return -1; }
   if (!part_three()) { return -1; }
-  print("Exercise 2 complete!\n");
+  print("Exercise 3 complete!\n");
   return 0;
 }
