@@ -11,6 +11,9 @@ void print(Args&&... args)
 
 int main()
 {
+	//nvim
+    //normal
     print("OpenCV version: ", CV_VERSION);
     return 0;
 }
+
