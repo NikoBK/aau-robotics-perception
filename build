@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ main.cpp $(pkg-config --cflags --libs opencv5) -o main && ./main
