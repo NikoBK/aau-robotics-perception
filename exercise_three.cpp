@@ -16,6 +16,8 @@ void print(Args&&... args) {
   (cout << ... << args) << '\n';
 }
 
+/// pass the image by reference without allowing displayImg to modify it.
+/// also keeps every displayed image same size.
 void displayImg(const std::string& name, const cv::Mat& img) {
   cv::namedWindow(name, cv::WINDOW_NORMAL);
   cv::resizeWindow(name, 400, 260);
